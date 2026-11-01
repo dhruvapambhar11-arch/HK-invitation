@@ -12,10 +12,10 @@ export const metadata = {
   metadataBase: new URL(siteUrl),
   title: "Harshil weds Khushali",
   description:
-    "Harshil ke jeevan ki khili Khushali - 23rd November 2026, Rajkot.",
+    "Harshil ke jeevan ki khili Khushali - Rajkot.",
   openGraph: {
     title: "Harshil weds Khushali",
-    description: "23rd November 2026, Rajkot.",
+    description: "Rajkot.",
     url: "/",
     siteName: "Harshil weds Khushali",
     type: "website",
