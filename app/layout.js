@@ -7,10 +7,10 @@ export const metadata = {
   metadataBase: new URL("https://hk-invitation.vercel.app"),
   title: "Harshil weds Khushali",
   description:
-    "Harshil ke jeevan ki khili Khushali - 23rd & 24th November 2026, Rajkot.",
+    "Harshil ke jeevan ki khili Khushali - 23rd November 2026, Rajkot.",
   openGraph: {
     title: "Harshil weds Khushali",
-    description: "23rd & 24th November 2026, Rajkot.",
+    description: "23rd November 2026, Rajkot.",
     url: "/",
     siteName: "Harshil weds Khushali",
     type: "website",
