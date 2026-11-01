@@ -2,9 +2,14 @@ import "./globals.css";
 
 /* Chat apps build the link preview from these tags alone, and need the image
    as an absolute URL - metadataBase is what turns app/opengraph-image.jpg into
-   one. */
+   one. Vercel supplies this project's own production domain at build time, so
+   the image URL can't drift to a domain we don't own. */
+const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
+
 export const metadata = {
-  metadataBase: new URL("https://hk-invitation.vercel.app"),
+  metadataBase: new URL(siteUrl),
   title: "Harshil weds Khushali",
   description:
     "Harshil ke jeevan ki khili Khushali - 23rd November 2026, Rajkot.",
